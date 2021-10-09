@@ -1,38 +1,26 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Darker+Grotesque:wght@300&family=Lobster&display=swap");
+
+.resume {
+  background-color: blanchedalmond;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 23px;
+}
+.resume-top {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name {
+  font-size: 45px;
+  font-family: "Lobster", cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.local {
+  font-size: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.links {
+  font-size: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resume-bottom {
+  margin: 0 10rem 10rem 10rem;
 }
